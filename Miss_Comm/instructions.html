@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Instructions page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Instructions</h1>
+        <h2>- Press the space bar to spawn a rocket.</h2>
+        <h2>- Press the 'up' arrow key to provide upward thrust.</h2>
+        <h2>- Press the 'left' arrow key to provide a leftward thrust.</h2>
+        <h2>- Press the 'right' arrow key to provide a rightword thrust.</h2>
+        <h2>- Press the 'down' arrow key to provide an opposing thrust.</h2>
+        <h2>- As you destroy the incoming objects, your score will increase.</h2>
+        <button type="button" class="glow-on-hover" onClick="goBack()">Title Screen</button>
+        <script>
+            function goBack() {
+                console.log("click");
+                location.href = "./intro.html"
+            }
+        </script>
+    </body>
+</html>
